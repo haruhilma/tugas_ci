@@ -7,11 +7,15 @@
         <div class="card-group">
             <?php foreach ($mahasiswa as $key => $v) { ?>
                 <div class="card">
-                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <img class="card-img-top" width="100%" src="<?= $v['photo'] ?>" alt="<?= $v['nama'] ?>">
                     <div class="card-body">
                     <h5 class="card-title">Nama : <?= $v['nama'] ?></h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text">
+                    NIM :  <?= $v['nim'] ?><br/>
+                    Kelas : <?= $v['kelas'] ?><br/>
+                    JURUSAN : <?= $v['jurusan'] ?>
+                    </p>
+                    <p class="card-text"><small class="text-muted">Informasi Mahasiswa</small></p>
                     </div>
                 </div>
             <?php } ?>
