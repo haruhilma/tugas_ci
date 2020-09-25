@@ -8,10 +8,13 @@ class Home extends CI_Controller {
 		
 		$mahasiswa = array(
 
-			 array('nama' =>  'faris eko N', 'nim' => '16143210210' ),
-			  array('nama' =>  'N', 'nim' => '' ),
+			 array('nama' =>  'Faris Eko N', 'nim' => '1614321021','Jurusan' => 'Teknik Informatika','kelas' => 'kelas D' ),
+			  array('nama' =>  'Mukamat Rendi S', 'nim' => '1614321046','Jurusan' => 'Teknik Informatika','kelas' => 'kelas D' ),
+				array('nama' =>  'Noviyanti', 'nim' => '1614321015','Jurusan' => 'Teknik Informatika','kelas' => 'kelas D' ),
+				  array('nama' =>  'Subaris', 'nim' => '1614321008','Jurusan' => 'Teknik Informatika','kelas' => 'kelas D' ),
+				   array('nama' =>  'Allexandro Billy S', 'nim' => '1614321059','Jurusan' => 'Teknik Informatika','kelas' => 'kelas D' )
 
-			);
+				);
 
 		$data['mahasiswa'] = $mahasiswa;
 		//echo "Nama = " . $mahasiswa[0] . ", " . $mahasiswa[1] . " dan " . $mahasiswa[2] . ".";
