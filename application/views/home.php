@@ -1,1 +1,1 @@
-test home view
+<?php echo '<pre>',print_r($mahasiswa,1),'</pre>'; ?>

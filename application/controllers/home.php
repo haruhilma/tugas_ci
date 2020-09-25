@@ -6,10 +6,17 @@ class Home extends CI_Controller {
 	{
 		#$data['query']  = $this->main_model->get_list('mahasiswa',array('perpage'=>10,'offset'=>0,array('by'=>'maha_id','sorting'=>'DESC')));
 		
-		$mahasiswa = array("Faris Eko", "Allexandro Billy S", "Rendy");
-		echo "Nama = " . $mahasiswa[0] . ", " . $mahasiswa[1] . " dan " . $mahasiswa[2] . ".";
+		$mahasiswa = array(
 
-		#$this->load->view('home');
+			 array('nama' =>  'faris eko N', 'nim' => '16143210210' ),
+			  array('nama' =>  'N', 'nim' => '' ),
+
+			);
+
+		$data['mahasiswa'] = $mahasiswa;
+		//echo "Nama = " . $mahasiswa[0] . ", " . $mahasiswa[1] . " dan " . $mahasiswa[2] . ".";
+
+		$this->load->view('home',$data);
 	}
 	
 }
