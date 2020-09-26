@@ -28,6 +28,16 @@
           font-size: 3.5rem;
         }
       }
+
+      .imgp-wrapper {
+        height: 200px;
+        overflow: hidden;
+      }
+
+      .card-text {
+        font-size: 14px;
+      }
+      
     </style>
     <!-- Custom styles for this template -->
     <link href="../tugas_ci/assets/bootstrap/css/navbar-top-fixed.css" rel="stylesheet">
