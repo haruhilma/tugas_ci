@@ -6,9 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v4.1.1">
-    <title>Fixed top navbar example · Bootstrap</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/navbar-fixed/">
+    <title>Tugas 2 | Kelompok 6 Pemrograman Framework</title>
 
     <!-- Bootstrap core CSS -->
 <link href="../tugas_ci/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -37,7 +35,7 @@
       .card-text {
         font-size: 14px;
       }
-      
+
     </style>
     <!-- Custom styles for this template -->
     <link href="../tugas_ci/assets/bootstrap/css/navbar-top-fixed.css" rel="stylesheet">
